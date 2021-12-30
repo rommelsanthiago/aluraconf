@@ -1,0 +1,60 @@
+.form {
+	display: block;
+	margin: 30px;
+}
+
+.dados {
+	margin: 0 10%;
+}
+
+.label {
+	margin: 0 5%;
+	font-weight: 700;
+	font-size: 1.3em;
+}
+
+.input-padrao {
+    display: block;
+    margin: 10px 0 10px 5%;
+    padding: 5px 15px;
+    width: 70%;
+    border-radius: 10px;
+}
+
+.form .title {
+	text-align: center;
+	padding: 3%;
+	color: coral;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.form .button2 {
+	text-align: -webkit-center;
+}
+
+.form .button2 .subscribe {
+	display: inline-block;
+	font-size: 150%;
+	padding: 30px;
+	border-radius: 6px;
+	background: #50A3A7;
+}
+
+.form .button2 .subscribe a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+@media (min-width: 650px){
+	.dados {
+    margin: 0px -10px 0px 15%;
+	}
+
+	.form .title {
+		padding: 0.5%;
+		font-size: 70px;
+	}
+
+}
