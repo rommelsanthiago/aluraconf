@@ -4,12 +4,31 @@
 }
 
 .panel-form .title {
-    font-size: 32px;
+    font-size: 52px;
     color: #EF7247;
     text-align: center;
     text-transform: uppercase;
 }
 
+.panel-form .sub-title {
+    font-size: 22px;
+    color: #EF7247;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.panel-form .content-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.panel-form .field {
+    width: 60%;
+}
+
 .button-place {
     text-align: center;
+    margin: 20px 0 30px;
 }
